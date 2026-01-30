@@ -1,0 +1,23 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/search_engine?useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: Aaaa0110+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate.ddl-auto: update
+indexing-settings:
+  sites:
+    - url: https://playback.ru
+      name: PlayBack.Ru
+    - url: https://www.svetlovka.ru
+      name: Светловка
+#    - url: https://sendel.ru
+#      name: Sendel
+
