@@ -1,9 +1,6 @@
 package searchengine.controllers;
 
 import lombok.Data;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,8 +10,6 @@ import searchengine.repository.LemmaRepository;
 import searchengine.repository.PageRepository;
 import searchengine.repository.SearchDataRepository;
 import searchengine.responses.ApplicationErrorException;
-import searchengine.responses.SearchData;
-import searchengine.responses.SearchResult;
 import searchengine.responses.StatusIndexingResponse;
 import searchengine.model.Status;
 import searchengine.services.IndexingService;

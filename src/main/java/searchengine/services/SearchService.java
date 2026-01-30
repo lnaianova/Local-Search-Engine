@@ -20,7 +20,6 @@ import searchengine.repository.SearchDataRepository;
 import searchengine.responses.ApplicationErrorException;
 import searchengine.responses.SearchData;
 import searchengine.responses.SearchResult;
-
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;

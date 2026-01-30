@@ -1,7 +1,6 @@
 package searchengine.responses;
 
 import lombok.Data;
-import org.springframework.data.domain.Page;
 import searchengine.dto.objects.SearchDataDto;
 
 import java.util.List;
